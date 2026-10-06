@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+content="Reserve your table online at Salwa Café.">
+
+<title>Booking | Salwa Café</title>
+
+<link rel="icon" href="images/favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet" href="css/styles.css">
+
+<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<nav>
+
+<a href="index.html" class="logo">
+
+Salwa <span>Café</span>
+
+</a>
+
+<input type="checkbox" id="menu-bar">
+
+<label for="menu-bar" class="menu-toggle">
+
+<i class="fa-solid fa-bars"></i>
+
+</label>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="menu.html">Menu</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a class="active" href="booking.html">Booking</a></li>
+
+<li><a href="help.html">Help</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="page-banner">
+
+<div class="container">
+
+<h1>Book Your Table</h1>
+
+<p>
+
+Reserve your favorite table in just a few minutes.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="booking-page">
+
+<div class="container">
+
+<div class="booking-info">
+
+<h2>Reservation Information</h2>
+
+<p>
+
+Complete the form to reserve your table. Our team will contact you to confirm your booking.
+
+</p>
+
+<img src="images/salwa.jpg"
+alt="Restaurant Reservation">
+
+</div>
+
+<div class="booking-form">
+
+<form>
+
+<label for="fullname">Full Name</label>
+
+<input
+type="text"
+id="fullname"
+name="fullname"
+placeholder="Enter your full name"
+required>
+
+<label for="email">Email Address</label>
+
+<input
+type="email"
+id="email"
+name="email"
+placeholder="Enter your email"
+required>
+
+<label for="phone">Phone Number</label>
+
+<input
+type="tel"
+id="phone"
+name="phone"
+placeholder="+252 61 XXXXXXX"
+required>
+<label for="booking-date">
+
+    Reservation Date
+
+</label>
+
+<input
+type="date"
+id="booking-date"
+name="booking-date"
+required>
+
+
+
+<label for="booking-time">
+
+    Reservation Time
+
+</label>
+
+<input
+type="time"
+id="booking-time"
+name="booking-time"
+required>
+
+
+
+<label for="guests">
+
+    Number of Guests
+
+</label>
+
+<input
+type="number"
+id="guests"
+name="guests"
+min="1"
+max="20"
+placeholder="Enter number of guests"
+required>
+
+
+
+<label for="table-type">
+
+    Table Type
+
+</label>
+
+<select
+id="table-type"
+name="table-type">
+
+<option value="">Choose Table</option>
+
+<option>Single Table</option>
+
+<option>Couple Table</option>
+
+<option>Family Table</option>
+
+<option>VIP Table</option>
+
+<option>Outdoor Table</option>
+
+</select>
+
+
+
+<label>
+
+Meal Preference
+
+</label>
+
+<div class="radio-group">
+
+<label>
+
+<input
+type="radio"
+name="meal"
+value="Breakfast">
+
+Breakfast
+
+</label>
+
+<label>
+
+<input
+type="radio"
+name="meal"
+value="Lunch">
+
+Lunch
+
+</label>
+
+<label>
+
+<input
+type="radio"
+name="meal"
+value="Dinner">
+
+Dinner
+
+</label>
+
+</div>
+
+
+
+<label>
+
+Additional Services
+
+</label>
+
+<div class="checkbox-group">
+
+<label>
+
+<input
+type="checkbox"
+name="services"
+value="Birthday Decoration">
+
+Birthday Decoration
+
+</label>
+
+<label>
+
+<input
+type="checkbox"
+name="services"
+value="Live Music">
+
+Live Music
+
+</label>
+
+<label>
+
+<input
+type="checkbox"
+name="services"
+value="VIP Service">
+
+VIP Service
+
+</label>
+
+</div>
+
+
+
+<label for="message">
+
+Special Request
+
+</label>
+
+<textarea
+id="message"
+name="message"
+rows="6"
+placeholder="Write your special request here..."></textarea>
+<label class="terms">
+
+<input
+type="checkbox"
+required>
+
+I agree to the Terms & Conditions.
+
+</label>
+
+<div class="form-buttons">
+
+<button
+type="submit"
+class="btn">
+
+Reserve Now
+
+</button>
+
+<button
+type="reset"
+class="btn-outline">
+
+Clear Form
+
+</button>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!--================ BOOKING BENEFITS =================-->
+
+<section class="booking-benefits">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>Benefits</span>
+
+<h2>Why Reserve With Us?</h2>
+
+<p>
+
+Enjoy a comfortable dining experience with exclusive reservation benefits.
+
+</p>
+
+</div>
+
+<div class="benefits-container">
+
+<div class="benefit-card">
+
+<i class="fa-solid fa-calendar-check"></i>
+
+<h3>Easy Reservation</h3>
+
+<p>
+
+Book your table online anytime.
+
+</p>
+
+</div>
+
+<div class="benefit-card">
+
+<i class="fa-solid fa-user-group"></i>
+
+<h3>Family Friendly</h3>
+
+<p>
+
+Comfortable seating for individuals and families.
+
+</p>
+
+</div>
+
+<div class="benefit-card">
+
+<i class="fa-solid fa-champagne-glasses"></i>
+
+<h3>Special Events</h3>
+
+<p>
+
+Perfect for birthdays and celebrations.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<div class="container footer-container">
+
+<div class="footer-box">
+
+<h3>Salwa Café</h3>
+
+<p>
+
+Fresh Coffee & Delicious Food.
+
+</p>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Quick Links</h3>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="menu.html">Menu</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="help.html">Help</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Contact</h3>
+
+<p>+252 61 1234567</p>
+
+<p>info@salwacafe.com</p>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+<p>
+
+© 2026 Salwa Café. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<a href="#" class="back-to-top">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</a>
+
+</body>
+
+</html>

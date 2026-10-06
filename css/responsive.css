@@ -1,0 +1,186 @@
+/*=========================================
+            LARGE DEVICES
+=========================================*/
+
+@media(max-width:1200px) {
+
+    .food-container {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+
+
+/*=========================================
+            TABLETS
+=========================================*/
+
+@media(max-width:992px) {
+
+    .hero-content h1 {
+
+        font-size: 55px;
+
+    }
+
+    .feature-container {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .testimonial-container {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .footer-container {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .about-preview .container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+
+/*=========================================
+            MOBILE
+=========================================*/
+
+@media(max-width:768px) {
+
+    .menu-toggle {
+
+        display: block;
+
+    }
+
+    .nav-links {
+
+        position: absolute;
+
+        top: 80px;
+
+        left: 0;
+
+        width: 100%;
+
+        background: #111;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        max-height: 0;
+
+        overflow: hidden;
+
+        transition: .5s;
+
+    }
+
+    .nav-links li {
+
+        padding: 20px 0;
+
+    }
+
+    #menu-bar:checked~.nav-links {
+
+        max-height: 500px;
+
+    }
+
+    .hero {
+
+        text-align: center;
+
+    }
+
+    .hero-content h1 {
+
+        font-size: 42px;
+
+    }
+
+    .food-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .feature-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .testimonial-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .counter .container {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .footer-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+
+/*=========================================
+            SMALL MOBILE
+=========================================*/
+
+@media(max-width:576px) {
+
+    .hero-content h1 {
+
+        font-size: 34px;
+
+    }
+
+    .hero-content p {
+
+        font-size: 16px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .counter .container {
+        grid-template-columns: 1fr;
+    }
+
+    .btn,
+    .btn-outline {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+}
